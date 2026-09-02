@@ -1,0 +1,224 @@
+﻿{
+  "categories": [
+    {
+      "id": "movies",
+      "name": "Movies & Shows",
+      "sites": [
+        {
+          "name": "OnlyKDrama",
+          "url": "https://onlykdrama.top/",
+          "enabled": true,
+          "logo": "./logo/movies_shows/onlykdrama.png"
+        },
+        {
+          "name": "Kiss KH",
+          "url": "https://kisskh.do/",
+          "logo": "./logo/movies_shows/kisskh.png",
+          "enabled": true
+        },
+        {
+          "name": "Hidrama",
+          "url": "https://hidrama.to/",
+          "logo": "./logo/movies_shows/hidrama.png",
+          "enabled": true
+        },
+        {
+          "name": "goplay.su",
+          "url": "https://goplay.su",
+          "logo": "./logo/movies_shows/goplaysu.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "tvwiki",
+          "url": "https://cokcok10.com/",
+          "logo": "./logo/movies_shows/tvwiki.png",
+          "status": "new",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "sites": [
+        {
+          "name": "Kiss KH",
+          "url": "https://kisskh.do/",
+          "logo": "./logo/movies_shows/kisskh.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "sites": [
+        {
+          "name": "King of Shojo",
+          "url": "https://kingofshojo.com",
+          "logo": "./logo/manga/kingofshojo.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "MangaFire",
+          "url": "https://mangafire.to/home",
+          "logo": "./logo/manga/mangafire.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "livetv",
+      "name": "Live TV & Sports",
+      "sites": [
+        {
+          "name": "곧 더 추가됩니다 — 제안을 추가해 주세요!",
+          "url": "/request",
+          "enabled": true,
+          "logo": ""
+        }
+      ]
+    },
+    {
+      "id": "paid",
+      "name": "Paid Services",
+      "sites": [
+        {
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/identity/login/",
+          "logo": "./logo/paid_apps/disney+.png",
+          "enabled": true
+        },
+        {
+          "name": "Shudder",
+          "url": "https://www.shudder.com/",
+          "logo": "./logo/paid_apps/shudder.png",
+          "enabled": true
+        },
+        {
+          "name": "Hulu",
+          "url": "https://auth.hulu.com/web/login/",
+          "logo": "./logo/paid_apps/hulu.png",
+          "enabled": true
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/",
+          "logo": "./logo/paid_apps/netflix.png",
+          "enabled": true
+        },
+        {
+          "name": "Viki",
+          "url": "https://www.viki.com/",
+          "logo": "./logo/paid_apps/viki.png",
+          "enabled": true
+        },
+        {
+          "name": "MAX",
+          "url": "https://www.hbomax.com/",
+          "logo": "https://www.hbomax.com/img/hbomax/logo_nav_bar.png",
+          "enabled": true
+        },
+        {
+          "name": "Apple TV+",
+          "url": "https://tv.apple.com/",
+          "logo": "./logo/paid_apps/appletv.png",
+          "enabled": true
+        },
+        {
+          "name": "Amazon Prime",
+          "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg",
+          "enabled": true
+        },
+        {
+          "name": "Paramount+",
+          "url": "https://www.paramountplus.com/account/signin/",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paramount_Plus.svg/1920px-Paramount_Plus.svg.png?_=20210312064352",
+          "enabled": true
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://crunchyroll.com/login",
+          "logo": "./logo/paid_apps/cruncyroll.png",
+          "enabled": true
+        },
+        {
+          "name": "MGM+",
+          "url": "https://www.mgmplus.com/",
+          "logo": "./logo/paid_apps/mgm+.png",
+          "enabled": true
+        },
+        {
+          "name": "Peacock",
+          "url": "https://www.peacocktv.com/start",
+          "logo": "./logo/paid_apps/Peacock.png",
+          "enabled": true
+        },
+        {
+          "name": "AMC+",
+          "url": "https://www.amcplus.com/login",
+          "logo": "./logo/paid_apps/amc+.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "sites": [
+        {
+          "name": "Playtorrio",
+          "url": "https://playtorrio.pages.dev/",
+          "logo": "./logo/apps/playtorrio.png",
+          "enabled": true
+        },
+        {
+          "name": "HDO Box",
+          "url": "https://hdobox.net/",
+          "logo": "./logo/apps/hdobox.png",
+          "enabled": true
+        },
+        {
+          "name": "BeeTV",
+          "url": "https://beetvs.com.co/",
+          "logo": "./logo/apps/beetv.png",
+          "enabled": true
+        },
+        {
+          "name": "MovieBox",
+          "url": "https://www.moviesbox.com.co/home/",
+          "logo": "./logo/apps/moviebox.png",
+          "enabled": true
+        },
+        {
+          "name": "NetMirror",
+          "url": "https://netmirror.gg/2/en",
+          "logo": "./logo/apps/netmirror.png",
+          "enabled": true
+        },
+        {
+          "name": "PikaShow",
+          "url": "https://pikashowtv.in/",
+          "logo": "./logo/apps/pikashow.png",
+          "enabled": true
+        },
+        {
+          "name": "Tving",
+          "url": "http://www.tving.com/",
+          "logo": "./logo/apps/tving.webp",
+          "enabled": true
+        },
+        {
+          "name": "PlayFy",
+          "url": "https://playfy.live/",
+          "logo": "./logo/apps/playfy.png",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
+

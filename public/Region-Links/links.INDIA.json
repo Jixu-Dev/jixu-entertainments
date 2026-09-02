@@ -1,0 +1,416 @@
+{
+  "categories": [
+    {
+      "id": "movies",
+      "name": "Movies & Shows",
+      "sites": [
+        {
+          "name": "PRMOVIES",
+          "url": "https://prmovies.farm/",
+          "logo": "./logo/movies_shows/pr-movies.png",
+          "enabled": true,
+          "status": "trusted"
+        },
+        {
+          "name": "Desicinemas",
+          "url": "https://desicinemas.pk/",
+          "logo": "./logo/movies_shows/desicinemas.png",
+          "enabled": true
+        },
+        {
+          "name": "Movies Bazar",
+          "url": "https://www.moviesbazar.su/",
+          "logo": "./logo/movies_shows/moviesbazar.png",
+          "enabled": true
+        },
+        {
+          "name": "Bollyflix",
+          "url": "https://bollyflix.free/",
+          "logo": "./logo/movies_shows/Bollyflix-movies.png",
+          "enabled": true
+        },
+        {
+          "name": "NETNINJA",
+          "url": "https://netnaija.film",
+          "logo": "./logo/movies_shows/netnaija.png",
+          "enabled": true
+        },
+        {
+          "name": "MovieRulz",
+          "url": "https://www.5movierulz.kitchen/",
+          "logo": "./logo/movies_shows/movierulz.png",
+          "enabled": true
+        },
+        {
+          "name": "Vegamovies",
+          "url": "https://vegamovies.market/",
+          "logo": "./logo/movies_shows/vegamovies.png",
+          "enabled": true
+        },
+        {
+          "name": "HINDILINKS4U",
+          "url": "https://hindilinks4u.estate/",
+          "logo": "./logo/movies_shows/hindilinks4u.png",
+          "enabled": true
+        },
+        {
+          "name": "Multi movies",
+          "url": "https://multimovies.wtf/",
+          "logo": "./logo/movies_shows/multi-movies.jpg",
+          "enabled": true
+        },
+        {
+          "name": "KMMovies",
+          "url": "https://kmmovies.life/",
+          "logo": "./logo/movies_shows/kmmovies.png",
+          "enabled": true
+        },
+        {
+          "name": "hdhub4u",
+          "url": "https://new5.hdhub4u.cl/",
+          "logo": "./logo/movies_shows/hdhub4u.png",
+          "enabled": true
+        },
+        {
+          "name": "movies4u",
+          "url": "https://movies4u.tube/",
+          "logo": "./logo/movies_shows/movies4u.png",
+          "enabled": true
+        },
+        {
+          "name": "moviesmod",
+          "url": "https://moviesmod.zone/",
+          "logo": "./logo/movies_shows/moviesmod.png",
+          "enabled": true
+        },
+        {
+          "name": "world4u",
+          "url": "https://world4ufree.farm/",
+          "logo": "./logo/movies_shows/world4u.png",
+          "enabled": true
+        },
+        {
+          "name": "netmirror",
+          "url": "https://net77.cc/home",
+          "logo": "./logo/movies_shows/netmirror.png",
+          "enabled": true
+        },
+        {
+          "name": "Hindinks4U",
+          "url": "https://hindilinks4u.estate/",
+          "logo": "./logo/movies_shows/hindinks4u.png",
+          "enabled": true
+        },
+        {
+          "name": "Alooytv",
+          "url": "https://fitnur.com/",
+          "logo": "./logo/movies_shows/alooytv.png",
+          "enabled": true
+        },
+        {
+          "name": "TheNextplanet",
+          "url": "https://www.thenextplanet.surf/",
+          "logo": "./logo/movies_shows/thenextplanet.png",
+          "enabled": true
+        },
+        {
+          "name": "yupflix",
+          "url": "https://watch.yupflix.org/",
+          "logo": "./logo/movies_shows/yupflix.png",
+          "enabled": true
+        },
+        {
+          "name": "1tamilblasters",
+          "url": "https://www.1tamilblasters.sale/",
+          "logo": "./logo/movies_shows/1tamilblasters.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "cinephile",
+          "url": "https://cinephile.live/",
+          "logo": "./logo/movies_shows/cinephile.png",
+          "status": "new",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "sites": [
+        {
+          "name": "AG48 ANIME",
+          "url": "https://www.ag48anime.fun/",
+          "logo": "./logo/anime/ag48anime.png",
+          "status": "trusted",
+          "enabled": true
+        },
+        {
+          "name": "WatchAnimeWorld",
+          "url": "https://watchanimeworld.one/",
+          "logo": "./logo/anime/watchanimeworld.png",
+          "status": "trusted",
+          "enabled": true
+        },
+        {
+          "name": "AnimeJoker",
+          "url": "https://animejoker.com/",
+          "logo": "./logo/anime/animejoker.png",
+          "enabled": true
+        },
+        {
+          "name": "blakiteanime",
+          "url": "https://www.subdubanime.site/",
+          "logo": "./logo/anime/blakiteanime.png",
+          "enabled": true
+        },
+        {
+          "name": "Anime4u",
+          "url": "https://anime4u.site/",
+          "logo": "./logo/anime/anime4u.png",
+          "enabled": true
+        },
+        {
+          "name": "AnimeDrive",
+          "url": "https://animedrive.me/",
+          "logo": "./logo/anime/animedrive.png",
+          "enabled": true
+        },
+        {
+          "name": "DesiDubAnime",
+          "url": "https://www.desidubanime.me/",
+          "logo": "./logo/anime/desidubanime.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "animedekho",
+          "url": "https://animedekho.app/",
+          "logo": "./logo/anime/animedekho.png",
+          "enabled": true
+        },
+        {
+          "name": "Anime Lok",
+          "url": "https://animelok.live/",
+          "logo": "./logo/anime/animelok.png",
+          "enabled": true
+        },
+        {
+          "name": "Anime Salt",
+          "url": "https://animesalt.me/",
+          "logo": "./logo/anime/animesalt.png",
+          "enabled": true
+        },
+        {
+          "name": "Animepahe",
+          "url": "https://animepahe.pw/",
+          "logo": "./logo/anime/animepahe.svg",
+          "enabled": true
+        },
+        {
+          "name": "RARE TOONS INDIA",
+          "url": "https://www.rareanimes.mov/",
+          "logo": "./logo/anime/rare-toons-india.png",
+          "enabled": true
+        },
+        {
+          "name": "AnimeSogo",
+          "url": "https://animesogo.to/home",
+          "logo": "./logo/anime/anime-sogo.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "sites": [
+        {
+          "name": "natomanga",
+          "url": "https://www.natomanga.com/",
+          "logo": "./logo/manga/natomanga.png",
+          "status": "new",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "livetv",
+      "name": "Live TV & Sports",
+      "sites": [
+        {
+          "name": "Taranga Plus",
+          "url": "https://tarangplus.in/",
+          "logo": "./logo/livetv/taranga-plus.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "paid",
+      "name": "Paid Services",
+      "sites": [
+        {
+          "name": "Disney+HotStar",
+          "url": "https://www.hotstar.com/in",
+          "logo": "./logo/paid_apps/disneyhotstar.png",
+          "enabled": true
+        },
+        {
+          "name": "yupptytv.com",
+          "url": "https://www.yupptv.com/channels",
+          "logo": "./logo/paid_apps/yupptv.svg",
+          "enabled": true
+        },
+        {
+          "name": "Shudder",
+          "url": "https://www.shudder.com/",
+          "logo": "./logo/paid_apps/shudder.png",
+          "enabled": true
+        },
+        {
+          "name": "Hulu",
+          "url": "https://auth.hulu.com/web/login/",
+          "logo": "./logo/paid_apps/hulu.png",
+          "enabled": true
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/",
+          "logo": "./logo/paid_apps/netflix.png",
+          "enabled": true
+        },
+        {
+          "name": "Viki",
+          "url": "https://www.viki.com/",
+          "logo": "./logo/paid_apps/viki.png",
+          "enabled": true
+        },
+        {
+          "name": "MAX",
+          "url": "https://www.hbomax.com/",
+          "logo": "https://www.hbomax.com/img/hbomax/logo_nav_bar.png",
+          "enabled": true
+        },
+        {
+          "name": "Apple TV+",
+          "url": "https://tv.apple.com/",
+          "logo": "./logo/paid_apps/appletv.png",
+          "enabled": true
+        },
+        {
+          "name": "Amazon Prime",
+          "url": "https://www.primevideo.com/",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg",
+          "enabled": true
+        },
+        {
+          "name": "Paramount+",
+          "url": "https://www.paramountplus.com/account/signin/",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paramount_Plus.svg/1920px-Paramount_Plus.svg.png?_=20210312064352",
+          "enabled": true
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://crunchyroll.com/login",
+          "logo": "./logo/paid_apps/cruncyroll.png",
+          "enabled": true
+        },
+        {
+          "name": "MGM+",
+          "url": "https://www.mgmplus.com/",
+          "logo": "./logo/paid_apps/mgm+.png",
+          "enabled": true
+        },
+        {
+          "name": "Peacock",
+          "url": "https://www.peacocktv.com/start",
+          "logo": "./logo/paid_apps/Peacock.png",
+          "enabled": true
+        },
+        {
+          "name": "AMC+",
+          "url": "https://www.amcplus.com/login",
+          "logo": "./logo/paid_apps/amc+.png",
+          "enabled": true
+        },
+        {
+          "name": "JioHotstar",
+          "url": "https://www.hotstar.com/",
+          "logo": "./logo/paid_apps/jiohotstar.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "AhaVideo",
+          "url": "https://www.aha.video/",
+          "logo": "./logo/paid_apps/ahavideo.png",
+          "status": "new",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "sites": [
+        {
+          "name": "Playtorrio",
+          "url": "https://playtorrio.pages.dev/",
+          "logo": "./logo/apps/playtorrio.png",
+          "enabled": true
+        },
+        {
+          "name": "star sports",
+          "url": "https://uvotv.com/",
+          "logo": "./logo/apps/uvo.svg",
+          "enabled": true
+        },
+        {
+          "name": "HDO Box",
+          "url": "https://hdobox.net/",
+          "logo": "./logo/apps/hdobox.png",
+          "enabled": true
+        },
+        {
+          "name": "BeeTV",
+          "url": "https://beetvs.com.co/",
+          "logo": "./logo/apps/beetv.png",
+          "enabled": true
+        },
+        {
+          "name": "MovieBox",
+          "url": "https://www.moviesbox.com.co/home/",
+          "logo": "./logo/apps/moviebox.png",
+          "enabled": true
+        },
+        {
+          "name": "NetMirror",
+          "url": "https://netmirror.gg/2/en",
+          "logo": "./logo/apps/netmirror.png",
+          "enabled": true
+        },
+        {
+          "name": "PikaShow",
+          "url": "https://pikashowtv.in/",
+          "logo": "./logo/apps/pikashow.png",
+          "enabled": true
+        },
+        {
+          "name": "YouCine",
+          "url": "https://youcineapkpro.com/",
+          "logo": "./logo/livetv/youcine.webp",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "PlayFy",
+          "url": "https://playfy.live/",
+          "logo": "./logo/apps/playfy.png",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

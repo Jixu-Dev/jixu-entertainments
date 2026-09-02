@@ -1,0 +1,39 @@
+# OS / editor
+.DS_Store
+.claude
+.gemini
+.idea
+.vscode
+
+# Node / Next.js
+node_modules
+.next
+out
+next-env.d.ts
+
+# Security / Environment & Secrets
+*.log
+.env*
+!.env.example
+*.pem
+*.key
+*.token
+*.cert
+
+# Databases & Local Data Storage
+data/
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+# Vercel & Cloudflare
+.vercel
+
+# TypeScript
+*.tsbuildinfo
+
+# Backups & Temp
+.legacy-backup
+ci.sh
+scratch/

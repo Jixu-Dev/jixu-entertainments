@@ -1,0 +1,280 @@
+{
+  "categories": [
+    {
+      "id": "movies",
+      "name": "Movies & Shows",
+      "sites": [
+        {
+          "name": "tv5mondeplus",
+          "url": "https://www.tv5mondeplus.com/",
+          "logo": "./logo/movies_shows/tv5mondeplus.png",
+          "enabled": true
+        },
+        {
+          "name": "yablom",
+          "url": "https://yablom.com/",
+          "logo": "./logo/movies_shows/yablom.png",
+          "enabled": true
+        },
+        {
+          "name": "movix",
+          "url": "https://movix.cash/",
+          "logo": "./logo/movies_shows/movixcash.png",
+          "enabled": true
+        },
+        {
+          "name": "purstream",
+          "url": "https://purstream.wiki/",
+          "logo": "./logo/movies_shows/purstream.png",
+          "enabled": true
+        },
+        {
+          "name": "Tf1",
+          "url": "https://www.tf1.fr/",
+          "enabled": true,
+          "logo": "./logo/movies_shows/tf1.svg"
+        },
+        {
+          "name": "flixium",
+          "url": "https://flixium.top/",
+          "logo": "./logo/movies_shows/flixium.png",
+          "enabled": true
+        },
+        {
+          "name": "Fawesome",
+          "url": "https://fawesome.tv/category/82798/french",
+          "logo": "./logo/movies_shows/fawesome.webp",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "sites": [
+        {
+          "name": "VoirAnime",
+          "url": "https://voir-anime.to/",
+          "enabled": true,
+          "logo": "./logo/anime/voiranime.png"
+        },
+        {
+          "name": "AnimesUltra",
+          "url": "https://ww.animesultra.org/",
+          "enabled": true,
+          "logo": "./logo/anime/animesultra.png"
+        },
+        {
+          "name": "VostFree",
+          "url": "https://vostfree.ws/",
+          "enabled": true,
+          "logo": "./logo/anime/vostfree.png"
+        },
+        {
+          "name": "Sekai",
+          "url": "https://sekai.one/?v=15",
+          "logo": "./logo/anime/sekai.png",
+          "enabled": true
+        },
+        {
+          "name": "MugiwaraNoStreaming",
+          "url": "https://www.mugiwara-no-streaming.com/",
+          "logo": "./logo/anime/mugiwaranostreaming.png",
+          "enabled": true
+        },
+        {
+          "name": "Anime Sama",
+          "url": "https://anime-sama.to/",
+          "logo": "./logo/anime/anime-sama.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "sites": [
+        {
+          "name": "Sushiscan",
+          "url": "https://sushiscan.net/",
+          "enabled": true,
+          "logo": "./logo/manga/sushiscan.webp"
+        },
+        {
+          "name": "Manga Scantrad",
+          "url": "https://manga-scantrad.io/",
+          "logo": "./logo/manga/manga-scantrad.png",
+          "enabled": true
+        },
+        {
+          "name": "Manga Origines",
+          "url": "https://mangas-origines.fr/",
+          "logo": "./logo/manga/manga-origines.png",
+          "enabled": true
+        },
+        {
+          "name": "Phenix Scans",
+          "url": "https://phenix-scans.co/",
+          "logo": "./logo/manga/phenix-scans.png",
+          "enabled": true
+        },
+        {
+          "name": "Lelmanga",
+          "url": "https://www.lelmanga.com/",
+          "logo": "./logo/manga/lelmanga.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "livetv",
+      "name": "Live TV & Sports",
+      "sites": [
+        {
+          "name": "Arte TV",
+          "url": "https://www.arte.tv/en/",
+          "enabled": true,
+          "logo": "./logo/livetv/arte-tv.png"
+        },
+        {
+          "name": "flixium",
+          "url": "https://flixium.top/",
+          "logo": "./logo/movies_shows/flixium.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "paid",
+      "name": "Paid Services",
+      "sites": [
+        {
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/identity/login/",
+          "logo": "./logo/paid_apps/disney+.png",
+          "enabled": true
+        },
+        {
+          "name": "Shudder",
+          "url": "https://www.shudder.com/",
+          "logo": "./logo/paid_apps/shudder.png",
+          "enabled": true
+        },
+        {
+          "name": "Hulu",
+          "url": "https://auth.hulu.com/web/login/",
+          "logo": "./logo/paid_apps/hulu.png",
+          "enabled": true
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/browse/genre/100378",
+          "logo": "./logo/paid_apps/netflix.png",
+          "enabled": true
+        },
+        {
+          "name": "Viki",
+          "url": "https://www.viki.com/",
+          "logo": "./logo/paid_apps/viki.png",
+          "enabled": true
+        },
+        {
+          "name": "MAX",
+          "url": "https://www.hbomax.com/",
+          "logo": "https://www.hbomax.com/img/hbomax/logo_nav_bar.png",
+          "enabled": true
+        },
+        {
+          "name": "Apple TV+",
+          "url": "https://tv.apple.com/",
+          "logo": "./logo/paid_apps/appletv.png",
+          "enabled": true
+        },
+        {
+          "name": "Amazon Prime",
+          "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg",
+          "enabled": true
+        },
+        {
+          "name": "Paramount+",
+          "url": "https://www.paramountplus.com/account/signin/",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paramount_Plus.svg/1920px-Paramount_Plus.svg.png?_=20210312064352",
+          "enabled": true
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://crunchyroll.com/login",
+          "logo": "./logo/paid_apps/cruncyroll.png",
+          "enabled": true
+        },
+        {
+          "name": "MGM+",
+          "url": "https://www.mgmplus.com/",
+          "logo": "./logo/paid_apps/mgm+.png",
+          "enabled": true
+        },
+        {
+          "name": "Peacock",
+          "url": "https://www.peacocktv.com/start",
+          "logo": "./logo/paid_apps/Peacock.png",
+          "enabled": true
+        },
+        {
+          "name": "AMC+",
+          "url": "https://www.amcplus.com/login",
+          "logo": "./logo/paid_apps/amc+.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "sites": [
+        {
+          "name": "Playtorrio",
+          "url": "https://playtorrio.pages.dev/",
+          "logo": "./logo/apps/playtorrio.png",
+          "enabled": true
+        },
+        {
+          "name": "HDO Box",
+          "url": "https://hdobox.net/",
+          "logo": "./logo/apps/hdobox.png",
+          "enabled": true
+        },
+        {
+          "name": "BeeTV",
+          "url": "https://beetvs.com.co/",
+          "logo": "./logo/apps/beetv.png",
+          "enabled": true
+        },
+        {
+          "name": "MovieBox",
+          "url": "https://www.moviesbox.com.co/home/",
+          "logo": "./logo/apps/moviebox.png",
+          "enabled": true
+        },
+        {
+          "name": "NetMirror",
+          "url": "https://netmirror.gg/2/en",
+          "logo": "./logo/apps/netmirror.png",
+          "enabled": true
+        },
+        {
+          "name": "PikaShow",
+          "url": "https://pikashowtv.in/",
+          "logo": "./logo/apps/pikashow.png",
+          "enabled": true
+        },
+        {
+          "name": "PlayFy",
+          "url": "https://playfy.live/",
+          "logo": "./logo/apps/playfy.png",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}

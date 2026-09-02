@@ -1,0 +1,50 @@
+import { NextResponse } from "next/server";
+import { exchangeCodeForToken, getCurrentUser, getRepoPermission, isAllowedAdmin } from "@/lib/auth/github";
+import { createSession, consumeOAuthState } from "@/lib/auth/session";
+import { env } from "@/lib/env";
+
+export const runtime = "nodejs";
+export const dynamic = "force-dynamic";
+
+export async function GET(req: Request) {
+  const url = new URL(req.url);
+  const code = url.searchParams.get("code");
+  const state = url.searchParams.get("state");
+  const err = url.searchParams.get("error");
+
+  const home = env.SITE_URL();
+
+  if (err) {
+    return NextResponse.redirect(`${home}/admin-panel/login?error=${encodeURIComponent(err)}`);
+  }
+  if (!code || !state) {
+    return NextResponse.redirect(`${home}/admin-panel/login?error=missing_code`);
+  }
+  if (!(await consumeOAuthState(state))) {
+    return NextResponse.redirect(`${home}/admin-panel/login?error=bad_state`);
+  }
+
+  try {
+    const { token } = await exchangeCodeForToken(code);
+    const user = await getCurrentUser(token);
+    const perm = await getRepoPermission(token, user.login);
+
+    // Verify if user is owner (Jixu-Dev) or invited repo collaborator
+    if (!isAllowedAdmin(user.login, perm)) {
+      return NextResponse.redirect(`${home}/admin-panel/unauthorized?login=${encodeURIComponent(user.login)}`);
+    }
+
+    await createSession({
+      githubLogin: user.login,
+      githubId: user.id,
+      avatarUrl: user.avatar_url,
+      token,
+      permission: perm === "none" ? "admin" : (perm as "admin" | "maintain" | "write"),
+    });
+
+    return NextResponse.redirect(`${home}/admin-panel`);
+  } catch (e) {
+    console.error("OAuth callback error:", e);
+    return NextResponse.redirect(`${home}/admin-panel/login?error=callback_failed`);
+  }
+}

@@ -1,0 +1,259 @@
+﻿{
+  "categories": [
+    {
+      "id": "movies",
+      "name": "Movies & Shows",
+      "sites": [
+        {
+          "name": "Moflix",
+          "url": "https://moflix-stream.xyz/",
+          "logo": "./logo/movies_shows/Moflix.png",
+          "enabled": true
+        },
+        {
+          "name": "S.to",
+          "url": "https://SerienStream.to",
+          "logo": "./logo/movies_shows/sto.png",
+          "enabled": true
+        },
+        {
+          "name": "Netzkino",
+          "url": "https://www.netzkino.de/",
+          "logo": "./logo/movies_shows/netzkino.png",
+          "enabled": true
+        },
+        {
+          "name": "StreamKiste",
+          "url": "https://streamkiste.life/",
+          "enabled": true,
+          "logo": "./logo/movies_shows/streamkiste.png"
+        },
+        {
+          "name": "ZDF",
+          "url": "https://www.zdf.de/",
+          "logo": "./logo/movies_shows/zdf.png",
+          "enabled": true
+        },
+        {
+          "name": "ARD Media",
+          "url": "https://www.ardmediathek.de/",
+          "logo": "./logo/movies_shows/ard-media.png",
+          "enabled": true
+        },
+        {
+          "name": "FilmPalast",
+          "url": "https://filmpalast.to/",
+          "logo": "./logo/movies_shows/filmpalast.png",
+          "enabled": true
+        },
+        {
+          "name": "Kinox/Kinoz",
+          "url": "https://kinoz.to",
+          "logo": "./logo/movies_shows/kinox.png",
+          "status": "new",
+          "enabled": true
+        },
+        {
+          "name": "BurningSeries",
+          "url": "https://burningseries.ac/",
+          "logo": "./logo/movies_shows/burningseries.png",
+          "status": "new",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "anime",
+      "name": "Anime",
+      "sites": [
+        {
+          "name": "Aniworld",
+          "url": "https://aniworld.to/",
+          "enabled": true,
+          "logo": "./logo/anime/aniworld.jpg"
+        }
+      ]
+    },
+    {
+      "id": "manga",
+      "name": "Manga",
+      "sites": [
+        {
+          "name": "Bald mehr — füge einen Vorschlag hinzu!",
+          "url": "/request",
+          "enabled": true,
+          "logo": ""
+        }
+      ]
+    },
+    {
+      "id": "livetv",
+      "name": "Live TV & Sports",
+      "sites": [
+        {
+          "name": "Sportschau",
+          "url": "https://www.sportschau.de/",
+          "enabled": true,
+          "logo": "./logo/livetv/sportschau.png"
+        },
+        {
+          "name": "golvar",
+          "url": "https://golvar329.sbs/",
+          "logo": "./logo/livetv/golvar.png",
+          "enabled": true
+        },
+        {
+          "name": "3Sat",
+          "url": "https://www.3sat.de/programm",
+          "logo": "./logo/livetv/3sat.svg",
+          "enabled": true
+        },
+        {
+          "name": "VIPBox",
+          "url": "https://vipbox1.com/",
+          "logo": "./logo/livetv/vipbox.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "paid",
+      "name": "Paid Services",
+      "sites": [
+        {
+          "name": "Disney+",
+          "url": "https://www.disneyplus.com/identity/login/",
+          "logo": "./logo/paid_apps/disney+.png",
+          "enabled": true
+        },
+        {
+          "name": "Shudder",
+          "url": "https://www.shudder.com/",
+          "logo": "./logo/paid_apps/shudder.png",
+          "enabled": true
+        },
+        {
+          "name": "Hulu",
+          "url": "https://auth.hulu.com/web/login/",
+          "logo": "./logo/paid_apps/hulu.png",
+          "enabled": true
+        },
+        {
+          "name": "Netflix",
+          "url": "https://www.netflix.com/",
+          "logo": "./logo/paid_apps/netflix.png",
+          "enabled": true
+        },
+        {
+          "name": "Viki",
+          "url": "https://www.viki.com/",
+          "logo": "./logo/paid_apps/viki.png",
+          "enabled": true
+        },
+        {
+          "name": "MAX",
+          "url": "https://www.hbomax.com/",
+          "logo": "https://www.hbomax.com/img/hbomax/logo_nav_bar.png",
+          "enabled": true
+        },
+        {
+          "name": "Apple TV+",
+          "url": "https://tv.apple.com/",
+          "logo": "./logo/paid_apps/appletv.png",
+          "enabled": true
+        },
+        {
+          "name": "Amazon Prime",
+          "url": "https://www.amazon.com/gp/video/collection/IncludedwithPrime",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/1/11/Amazon_Prime_Video_logo.svg",
+          "enabled": true
+        },
+        {
+          "name": "Paramount+",
+          "url": "https://www.paramountplus.com/account/signin/",
+          "logo": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Paramount_Plus.svg/1920px-Paramount_Plus.svg.png?_=20210312064352",
+          "enabled": true
+        },
+        {
+          "name": "Crunchyroll",
+          "url": "https://crunchyroll.com/login",
+          "logo": "./logo/paid_apps/cruncyroll.png",
+          "enabled": true
+        },
+        {
+          "name": "MGM+",
+          "url": "https://www.mgmplus.com/",
+          "logo": "./logo/paid_apps/mgm+.png",
+          "enabled": true
+        },
+        {
+          "name": "Peacock",
+          "url": "https://www.peacocktv.com/start",
+          "logo": "./logo/paid_apps/Peacock.png",
+          "enabled": true
+        },
+        {
+          "name": "AMC+",
+          "url": "https://www.amcplus.com/login",
+          "logo": "./logo/paid_apps/amc+.png",
+          "enabled": true
+        },
+        {
+          "name": "Sky",
+          "url": "https://www.sky.de/",
+          "logo": "./logo/paid_apps/sky.png",
+          "enabled": true
+        }
+      ]
+    },
+    {
+      "id": "apps",
+      "name": "Apps",
+      "sites": [
+        {
+          "name": "Playtorrio",
+          "url": "https://playtorrio.pages.dev/",
+          "logo": "./logo/apps/playtorrio.png",
+          "enabled": true
+        },
+        {
+          "name": "HDO Box",
+          "url": "https://hdobox.net/",
+          "logo": "./logo/apps/hdobox.png",
+          "enabled": true
+        },
+        {
+          "name": "BeeTV",
+          "url": "https://beetvs.com.co/",
+          "logo": "./logo/apps/beetv.png",
+          "enabled": true
+        },
+        {
+          "name": "MovieBox",
+          "url": "https://www.moviesbox.com.co/home/",
+          "logo": "./logo/apps/moviebox.png",
+          "enabled": true
+        },
+        {
+          "name": "NetMirror",
+          "url": "https://netmirror.gg/2/en",
+          "logo": "./logo/apps/netmirror.png",
+          "enabled": true
+        },
+        {
+          "name": "PikaShow",
+          "url": "https://pikashowtv.in/",
+          "logo": "./logo/apps/pikashow.png",
+          "enabled": true
+        },
+        {
+          "name": "PlayFy",
+          "url": "https://playfy.live/",
+          "logo": "./logo/apps/playfy.png",
+          "enabled": true
+        }
+      ]
+    }
+  ]
+}
+

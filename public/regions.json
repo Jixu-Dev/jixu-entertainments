@@ -1,0 +1,100 @@
+{
+  "regions": [
+    {
+      "code": "USA",
+      "name": "United States",
+      "flag": "us",
+      "enabled": true
+    },
+    {
+      "code": "INDIA",
+      "name": "India",
+      "flag": "in",
+      "enabled": true
+    },
+    {
+      "code": "RUSSIA",
+      "name": "Russia",
+      "flag": "ru",
+      "enabled": true
+    },
+    {
+      "code": "GERMANY",
+      "name": "Germany",
+      "flag": "de",
+      "enabled": true
+    },
+    {
+      "code": "FRANCE",
+      "name": "France",
+      "flag": "fr",
+      "enabled": true
+    },
+    {
+      "code": "BRAZIL",
+      "name": "Brazil",
+      "flag": "br",
+      "enabled": true
+    },
+    {
+      "code": "JAPAN",
+      "name": "Japan",
+      "flag": "jp",
+      "enabled": true
+    },
+    {
+      "code": "SOUTHKOREA",
+      "name": "South Korea",
+      "flag": "kr",
+      "enabled": true
+    },
+    {
+      "code": "SPAIN",
+      "name": "Spain",
+      "flag": "es",
+      "enabled": true
+    },
+    {
+      "code": "ITALY",
+      "name": "Italy",
+      "flag": "it",
+      "enabled": true
+    },
+    {
+      "code": "POLAND",
+      "name": "Poland",
+      "flag": "pl",
+      "enabled": true
+    },
+    {
+      "code": "NETHERLANDS",
+      "name": "Netherlands",
+      "flag": "nl",
+      "enabled": true
+    },
+    {
+      "code": "PORTUGAL",
+      "name": "Portugal",
+      "flag": "pt",
+      "enabled": true
+    },
+    {
+      "code": "FINLAND",
+      "name": "Finland",
+      "flag": "fi",
+      "enabled": true
+    },
+    {
+      "code": "EGYPT",
+      "name": "Egypt",
+      "flag": "eg",
+      "enabled": true
+    },
+    {
+      "code": "KURDISTAN",
+      "name": "Kurdistan",
+      "flag": "kurdistan",
+      "enabled": true
+    }
+  ]
+}
